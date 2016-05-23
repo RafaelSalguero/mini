@@ -10,10 +10,11 @@ Use mini on **performance critical** applications
 Mini is harder to use than angular but provides a **5 to 10 times performance increment**, your app boots immediatly
 
 Mini provide:
-- Dependency injection
-- Binding-based dom manipullation library
-- JavaScript expressions embeded on html
-- Zero boostrap overhead apart for loading the *tiny* library
+- **Dependency injection** Create services and controllers, instantiate controllers by name with all its dependencies resolved
+- **Binding-based DOM manipullation library** Angular like bindings between HTML and plain JavaScript objects
+- **JavaScript expressions embeded on html** Use JavaScript expressions on bindings just like Angular
+- **Zero boostrap overhead apart for loading the *tiny* library** Mini does not need any kind of bootstrapping
+- **Uninstrusive binding sintax** Binding sintax does not modify the apparence of your page, so the user will never see a `{{ctrl.my.variable}}` label just before the HTML compilation 
 
 Mini does not have:
 - **A bootstrap method** , HTML compilation and bindings are **triggered manually**
