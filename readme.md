@@ -3,13 +3,16 @@
 
 Copyright Rafael Salguero Iturrios 2016
 
-**mini** is the smallest framework for SPA applications
+**Mini** is the smallest framework for SPA applications
 
-Optimized for performance and minimal bootstrap time.
+Use mini on **performance critical** applications
+
+Mini is harder to use than angular but provides a **5 to 10 times performance increment**, your app boots immediatly
 
 Mini provide:
 - Dependency injection
 - Binding-based dom manipullation library
+- JavaScript expressions embeded on html
 - Zero boostrap overhead apart for loading the *tiny* library
 
 Mini does not have:
